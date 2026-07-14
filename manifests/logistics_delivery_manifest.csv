@@ -1,0 +1,3 @@
+Manifest_ID,Origin_Facility,Destination_Hospital,Carrier_ID,Container_Serial,Current_GPS,Internal_Temp_C,Chain_of_Custody_Signature,Delivery_Status
+LOG-VRX-101,Processing_Hub_Alpha,UW_Medical_Center,DHL-EXP-441,BOX-COLD-01,47.6553_N_122.3035_W,4.1,Recv_E_Staff_MD,Delivered_Secure
+LOG-VRX-102,Processing_Hub_Alpha,Harborview_Medical,DHL-EXP-442,BOX-COLD-02,47.6042_N_122.3241_W,3.9,Recv_M_Admin_RN,Delivered_Secure

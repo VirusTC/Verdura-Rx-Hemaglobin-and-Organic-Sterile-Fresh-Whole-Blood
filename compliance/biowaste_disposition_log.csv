@@ -1,0 +1,4 @@
+Disposal_ID,Patient_ID_Reference,Hospital_Unit,Waste_Category,Dry_Weight_kg,Decontamination_Method,Witness_Initials,Destruction_Timestamp_UTC,EPA_Manifest_Hyperlink
+WST-2026-089,PAT-001,Clinical_ICU_Room_4,Biohazardous_Fluid_Residual,1.85,Autoclave_121C_60Min,KLP,2026-07-13T18:30:00Z,S:\Compliance\Waste\EPA_2026_089.pdf
+WST-2026-090,PAT-002,Clinical_ICU_Room_2,Secondary_Tubing_Cassette,0.92,Incineration_HighTemp,JST,2026-07-13T19:15:00Z,S:\Compliance\Waste\EPA_2026_090.pdf
+WST-2026-091,PAT-003,Operating_Room_3,Biohazardous_Fluid_Residual,2.10,Autoclave_121C_60Min,AMH,2026-07-13T21:00:00Z,S:\Compliance\Waste\EPA_2026_091.pdf

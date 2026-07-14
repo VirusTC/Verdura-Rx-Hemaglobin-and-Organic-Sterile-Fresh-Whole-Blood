@@ -1,0 +1,4 @@
+Harvest_ID,Timestamp_UTC,Plot_Coordinates,Crop_Type,NDVI_Index,Molar_Chlorophyll_Density_g_L,Heavy_Metal_Screen,Moisture_Content_Pct,Initial_QC_Status
+HRV-CAR-001,2026-07-13T06:00:00Z,47.6062_N_122.3321_W,Crop_Base_Carrot,0.82,14.22,Passed_ND,12.4,Approved_for_Processing
+HRV-CRN-002,2026-07-13T07:30:00Z,47.6081_N_122.3355_W,Matrix_Base_Corn,0.78,9.15,Passed_ND,14.1,Approved_for_Processing
+HRV-WAX-003,2026-07-13T09:00:00Z,47.6105_N_122.3421_W,Plasma_Substitute,N/A,N/A,Passed_ND,2.1,Approved_for_Processing

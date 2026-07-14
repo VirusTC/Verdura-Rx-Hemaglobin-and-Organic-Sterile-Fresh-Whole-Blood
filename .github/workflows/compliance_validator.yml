@@ -1,0 +1,43 @@
+name: Repository Compliance and Log Validator
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate-data-structures:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python Environment
+        uses: actions/setup-python@v5
+        with:
+          python-python: '3.11'
+
+      - name: Execute CSV Integrity and Structural Audits
+        run: |
+          python -c "
+          import pandas as pd
+          import os
+
+          logs = [
+              'manifests/crop_yield_ledger.csv',
+              'manifests/processing_batch_log.csv',
+              'manifests/logistics_delivery_manifest.csv',
+              'compliance/biowaste_disposition_log.csv'
+          ]
+
+          for log in logs:
+              if not os.path.exists(log):
+                  print(f'CRITICAL ERROR: Mandatory ledger file missing: {log}')
+                  exit(1)
+              try:
+                  df = pd.read_csv(log)
+                  print(f'SUCCESS: {log} parsed safely. Total rows evaluated: {len(df)}')
+              except Exception as e:
+                  print(f'PARSING FAILURE in file {log}: {e}')
+                  exit(1)
+          "
