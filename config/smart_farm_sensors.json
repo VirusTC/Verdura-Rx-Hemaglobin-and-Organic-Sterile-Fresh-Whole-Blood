@@ -1,0 +1,21 @@
+{
+  "sensor_network_version": "2026.4.1",
+  "data_protocol": "MQTT",
+  "telemetry_intervals_seconds": 60,
+  "monitored_parameters": {
+    "soil_nitrogen_ppm": {
+      "target_range": [150.0, 220.0],
+      "alert_critical_low": 120.0,
+      "alert_critical_high": 250.0
+    },
+    "spectral_irradiance_w_m2": {
+      "target_band_nm":,
+      "minimum_flux": 12.5,
+      "calibration_factor": 1.042
+    },
+    "root_zone_humidity_percent": {
+      "target_range": [65.0, 78.0],
+      "actuator_trigger_threshold": 62.0
+    }
+  }
+}
