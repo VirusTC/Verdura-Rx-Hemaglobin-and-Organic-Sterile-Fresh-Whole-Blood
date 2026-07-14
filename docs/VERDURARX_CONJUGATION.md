@@ -18,7 +18,7 @@ To mimic the oxygen-binding pocket of human hemoglobin, the lipophilic beta-caro
 ▼ ◄── Purge Oxygen with Sterile Nitrogen Gas\
 [ Stable VerduraRX Active Oxygen Carrier Complex ]
 
-### Synthesis Steps:
+### Manufacturing Steps:
 1.  **Nitrogen De-oxygenation:** Purge the aqueous leghemoglobin solution with sterile **Nitrogen ($N_2$) gas** for 45 minutes to remove all dissolved oxygen before adding the carotene.
 2.  **Solubilization:** Dissolve the organic beta-carotene into a minimal volume of organic, high-oleic carrier lipids stabilized with alpha-tocopherol.
 3.  **Complexation:** Slowly titrate the solubilized carotene into the de-oxygenated leghemoglobin matrix under constant ultrasonic agitation (**40 kHz**) at **4°C** in a dark environment to promote spontaneous molecular self-assembly into the hydrophobic protein pockets.
