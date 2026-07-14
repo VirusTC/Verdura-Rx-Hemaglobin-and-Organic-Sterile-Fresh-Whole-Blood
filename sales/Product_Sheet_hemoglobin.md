@@ -1,7 +1,7 @@
 Product Sheet: VerduraRx Pre-Hemat (Hemoglobin Substitute Formulation)
 
 **Classification:** Biomimetic Oxygen Carrier\
-**Regulatory Track:** IRB for Compassionate Care / Food-Grade Source Gating
+**Regulatory Track:** Voluntary IRB Compassionate Use Gating / Food-Grade Source Gating
 
 I. Core Paradigm: Conservation of Mass and Direct Molecular Nutrition
 
