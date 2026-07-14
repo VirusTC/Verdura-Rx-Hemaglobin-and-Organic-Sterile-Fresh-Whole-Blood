@@ -1,0 +1,4 @@
+Batch_ID,Step_Sequence,Reactant_Mass_kg,Target_Resonance_Hz,Applied_Acoustic_Power_Watts,Fluid_Temperature_C,Spectroscopic_Purity_Pct,pH_Level,Operator_Signoff
+BAT-VRX-09A,01_Extraction,150.00,1515.0,250,4.2,94.20,6.85,AMH
+BAT-VRX-09A,02_Metalation,12.50,1620.0,400,5.1,98.65,7.38,RCO
+BAT-VRX-09A,03_Encapsulation,75.00,2100.0,150,4.0,99.10,7.41,JST
